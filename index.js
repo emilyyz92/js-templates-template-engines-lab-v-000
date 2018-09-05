@@ -13,6 +13,7 @@ function createPost() {
   var postElement = document.getElementById("post");
   postElement.innerHTML += postHTML;
   var commentElement = document.getElementsByTagName("footer")
+  commentElement.innerHTML += commentsTemplate()
 
 }
 
