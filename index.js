@@ -12,7 +12,7 @@ function createPost() {
   document.getElementsByTagName("main")[0].innerHTML += pageTemplate();
   var postElement = document.getElementById("post");
   postElement.innerHTML = postHTML;
-  var commentElement = document.getElementsByTagName("footer")
+  var commentElement = document.getElementsByTagName("footer")[0]
   commentElement.innerHTML += commentsTemplate()
 
 }
