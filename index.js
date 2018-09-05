@@ -26,5 +26,5 @@ function postComment() {
   var commentHTML = commentTemplate({"commenter": commenter, "comment": comment})
 
   commentElement = document.getElementById("comments")[0]
-  commentElement += commentHTML
+  commentElement.innerHTML += commentHTML
 }
