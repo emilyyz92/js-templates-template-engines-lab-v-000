@@ -11,7 +11,7 @@ function createPost() {
 
   document.getElementsByTagName("main")[0].innerHTML += pageTemplate();
   var postElement = document.getElementById("post");
-  postElement.innerHTML += postHTML;
+  postElement.innerHTML = postHTML;
   var commentElement = document.getElementsByTagName("footer")
   commentElement.innerHTML = commentsTemplate()
 
